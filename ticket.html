@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Coding Conf | Your Ticket</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="ticket-page">
+      <!--Small Branding-->
+      <header class="page-brand">
+        <a href="index.html">
+          <img src="assets/logo-mark.svg" alt="Coding Conf logo" />
+          <span>CODING CONF</span>
+        </a>
+      </header>
+
+      <!--Confirmation Message-->
+      <section class="ticket-intro">
+        <h1>Coding Conf Ticket</h1>
+        <p id="ticket-message"></p>
+        <p>We've emailed your ticket to:</p>
+        <p id="ticket-email"></p>
+      </section>
+
+      <section class="ticket-card">
+        <div class="heading">
+          <img src="assets/logo-mark.svg" alt="logo" />
+          <div>
+            <h2>CODING CONF</h2>
+
+            <!--Additional information-->
+            <p>October 26, 2026 | Papine, Kingston</p>
+          </div>
+        </div>
+
+        <div class="ticket-user">
+          <!--Using JavaScript to insert the user's information-->
+          <img id="ticket-avatar" alt="Your uploaded avatar" />
+
+          <div class="ticket-details">
+            <p id="ticket-name"></p>
+
+            <div class="github-details">
+              <img src="assets/icon-github.svg" alt="GitHub" />
+              <a id="ticket-github"></a>
+            </div>
+
+            <p id="ticket-email"></p>
+          </div>
+        </div>
+
+        <p id="ticket-serial"></p>
+      </section>
+    </main>
+
+    <!--Linking the JavaScript file for displaying the user's ticket information-->
+    <script src="js/ticket.js"></script>
+  </body>
+</html>
